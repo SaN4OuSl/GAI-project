@@ -60,9 +60,6 @@ axs[2].imshow(output)
 axs[2].set_title('Inpainted Image')
 
 plt.savefig("output/all_images.png", dpi=600)
-
-plt.show()
-
 plt.imsave("output/inpainted_image.png", output)
 
-
+plt.show()

@@ -132,9 +132,9 @@ class ObjectRemove():
         _,h,w = img[0].shape
         size = min(h,w)
 
-        # Downscaling (remove if not needed)
-        if size > 512:
-            img[0] = T.Resize(512, max_size=680, antialias=True)(img[0])
+        # # Downscaling (remove if not needed)
+        # if size > 512:
+        #     img[0] = T.Resize(512, max_size=680, antialias=True)(img[0])
 
         images_transformed = [self.rcnn_transforms(d) for d in img]
         return images_transformed
