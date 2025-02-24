@@ -18,11 +18,6 @@ An object removal from image system using deep learning image segmentation and i
  
  The result is a complete image with the object removed. 
 
- <p align ="center">
-  <img src="/img/diagram.png" width="1000" />
-  <em></em>
- </p>
-
 ## Usage
 
 The DeepFillv2 model needs pretrained weights from [here](https://drive.google.com/u/0/uc?id=1L63oBNVgz7xSb_3hGbUdkYW1IuRgMkCa&export=download) provided by [this](https://github.com/nipponjo/deepfillv2-pytorch) repository which is a reimplementation of DeepFillv2 in Pytroch. Code for DeepFillv2 model was borrowed and slightly modified from there.  
@@ -43,14 +38,6 @@ When drawing bounding box, press 'r' to clear bounding box and reset image. Once
 ## Results
 The following are some results of the system. The user selected bounding box is shown along with the masked image and inpainted final result. 
 
-<p align ="center">
-  <img src="/img/example1.png" width="1000" />
-  <em></em>
-</p>
-<p align ="center">
-  <img src="/img/example2.png" width="1000" />
-  <em></em>
-</p>
 
 ## Dependencies
 - python3
